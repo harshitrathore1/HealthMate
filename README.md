@@ -1,4 +1,18 @@
-﻿# Medicine-Recommendation-System
+﻿Should run the following in terminal to create a virtual environment and install dependencies:
+
+1. Create a virtual environment -> python -m venv venv
+
+2. Activate virtual environment -> 
+venv\Scripts\activate  # for Windows
+source venv/bin/activate  # for Mac/Linux
+
+3. Install requirements ->
+pip install -r requirements.txt
+
+
+
+
+# Medicine-Recommendation-System
 A Medicine Recommendation System in machine learning (ML) is a software application designed to assist healthcare professionals and patients in selecting the most appropriate medication based on various factors such as medical history, symptoms, demographics, and drug interactions. Here's a breakdown of its components and functionality:
 
 1. **Data Collection and Preprocessing**: The system collects and preprocesses vast amounts of medical data, including patient records, electronic health records (EHRs), clinical trials data, drug information, and research articles. This data is cleaned, standardized, and structured for analysis.
